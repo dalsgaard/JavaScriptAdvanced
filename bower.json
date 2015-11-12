@@ -1,0 +1,16 @@
+{
+  "name": "javascript-advanced",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dalsgaard/JavaScriptAdvanced",
+  "authors": [
+    "Kim Dalsgaard <kim@kimdalsgaard.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "traceur": "~0.0.92"
+  }
+}
