@@ -4,7 +4,7 @@
 
 ## Spread
 
-### Spreading parameters
+### Parameters
 
 ```js
 function foo(a, b, c, d) {

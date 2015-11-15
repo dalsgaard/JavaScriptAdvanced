@@ -1,6 +1,6 @@
 # Block Scope
 
-## `let`
+### `let`
 
 ```js
 {
@@ -9,7 +9,7 @@
 }
 ```
 
-### Hoisting
+#### Hoisting
 
 There is *no* hoisting of `let` declarations.
 
@@ -20,7 +20,7 @@ There is *no* hoisting of `let` declarations.
 }
 ```
 
-### Redeclaration
+#### Redeclaration
 
 Redeclaration is not allowed.
 
@@ -31,7 +31,7 @@ Redeclaration is not allowed.
 }
 ```
 
-## const
+### `const`
 
 ```js
 {
@@ -39,7 +39,7 @@ Redeclaration is not allowed.
 }
 ```
 
-### Reassignment
+#### Reassignment
 
 ```js
 {
@@ -48,7 +48,7 @@ Redeclaration is not allowed.
 }
 ```
 
-### References
+#### References
 
 ```js
 {

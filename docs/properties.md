@@ -1,6 +1,6 @@
 # Properties
 
-## `getOwnPropertyDescriptor`
+### `getOwnPropertyDescriptor`
 
 ```js
 var foo = {
@@ -10,7 +10,7 @@ var desc = Object.getOwnPropertyDescriptor(foo, 'a');
 console.log(desc);
 ```
 
-## `defineProperty`
+### `defineProperty`
 
 ```js
 var foo = { };
@@ -23,7 +23,7 @@ Object.defineProperty(foo, 'a', {
 console.log(foo);
 ```
 
-### writable
+#### writable
 
 ```js
 var foo = { };
@@ -38,7 +38,7 @@ foo.a = 4;
 console.log(foo);
 ```
 
-### configurable
+#### configurable
 
 ```js
 var foo = { };
@@ -56,7 +56,7 @@ Object.defineProperty(foo, 'a', {
 }); // => TypeError
 ```
 
-#### *writable* to false
+##### *writable* to false
 
 ```js
 var foo = { };
@@ -73,7 +73,7 @@ Object.defineProperty(foo, 'a', {
 });
 ```
 
-#### `delete`
+##### `delete`
 
 ```js
 var foo = { };
@@ -89,7 +89,7 @@ delete foo.a;
 console.log(foo);
 ```
 
-### enumerable
+#### enumerable
 
 ```js
 var foo = {
@@ -109,7 +109,7 @@ for (var key in foo) {
 }
 ```
 
-## `defineProperties`
+### `defineProperties`
 
 ```js
 var foo = { };
