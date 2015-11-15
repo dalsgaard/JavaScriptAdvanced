@@ -54,3 +54,12 @@ for (let i of a) {
   }
 }
 ```
+
+### Spread
+
+```js
+{
+  let a = [...foo]
+  console.log(a);
+}
+```
