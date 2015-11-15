@@ -2,6 +2,13 @@
 
 ## `let`
 
+```js
+{
+  let a = 5;
+  console.log(a);
+}
+```
+
 ### Hoisting
 
 There is *no* hoisting of `let` declarations.
@@ -25,3 +32,27 @@ Redeclaration is not allowed.
 ```
 
 ## const
+
+```js
+{
+  const A = 5;
+}
+```
+
+### Reassignment
+
+```js
+{
+  const A = 5;
+  A = 6; // TypeError
+}
+```
+
+### References
+
+```js
+{
+  const A = [];
+  A.push(1);
+}
+```
