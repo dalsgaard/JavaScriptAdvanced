@@ -33,3 +33,15 @@ var foo = {
 };
 console.log(foo);
 ```
+
+## Getter and Setter
+
+```js
+var foo = {
+  get c() { return this._c; },
+  set c(c) { this._c = c; }
+};
+
+foo.c = 8;
+console.log(foo.c);
+```
