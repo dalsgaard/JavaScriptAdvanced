@@ -6,16 +6,18 @@
 
 ```js
 {
-let [x, y] = [1, 3];
-console.log(x, y);
+  let [x, y] = [1, 3];
+  console.log(x, y);
 }
 ```
 
 ## Objects
 
 ```js
-let { a: a, b: b } = { a: 'foo', b: 'bar' };
-console.log(a, b);
+{
+  let { a: a, b: b } = { a: 'foo', b: 'bar' };
+  console.log(a, b);
+}
 ```
 
 ## Unequal size
@@ -175,5 +177,10 @@ console.log(a, b);
 ## Parameters
 
 ```js
-
+{
+  function foo ([a, b, c]) {
+    console.log(a, b, c);
+  }
+  foo([1, 2, 4]);
+}
 ```

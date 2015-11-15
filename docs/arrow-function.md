@@ -1,6 +1,6 @@
 # Arrow Function
 
-## Short Syntax
+### Short Syntax
 
 ```js
 {
@@ -23,7 +23,7 @@
 }
 ```
 
-## Lexical `this`
+### Lexical `this`
 
 ```js
 {

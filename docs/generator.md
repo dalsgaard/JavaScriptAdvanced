@@ -6,7 +6,7 @@ var it = foo();
 console.log(it.next());
 ```
 
-## `yield`
+### `yield`
 
 ```js
 function *foo() {
@@ -39,7 +39,7 @@ function *foo() {
 }
 ```
 
-## Parsing Arguments
+### Parsing Arguments
 
 ```js
 function *foo(a, b) {
@@ -51,7 +51,7 @@ console.log(it.next());
 console.log(it.next());
 ```
 
-## Returning values
+### Returning values
 
 ```js
 function *foo() {
@@ -63,7 +63,7 @@ console.log(it.next(20));
 console.log(it.next());
 ```
 
-## `yield` is an expression
+### `yield` is an expression
 
 ```js
 function *foo() {
@@ -93,7 +93,7 @@ a = 2 + yield 3; // invalid
 a = 2 + (yield 3); // valid
 ```
 
-## Expressions and Declarations
+### Expressions and Declarations
 
 ```js
 var foo = function * () {
@@ -101,7 +101,7 @@ var foo = function * () {
 }
 ```
 
-## `throw`
+### `throw`
 
 ```js
 function *foo() {
@@ -118,7 +118,7 @@ try {
 }
 ```
 
-## `yield *`
+### `yield *`
 
 ```js
 function *foo() {
@@ -143,7 +143,7 @@ console.log(it.next());
 console.log(it.next());
 ```
 
-## `return`
+### `return`
 
 ```js
 function *bar() {

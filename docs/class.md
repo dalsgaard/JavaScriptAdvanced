@@ -17,7 +17,7 @@ let foo = new Foo(2, 4);
 console.log(foo.bar());
 ```
 
-### 'extends'
+### `extends`
 
 ```js
 class Bar extends Foo { };
