@@ -68,13 +68,13 @@ Warning: very slow!
 ```js
 var foo = {
   a: 5,
-  baz: function () {
+  baz() {
     return 4;
   }
 };
 var bar = {
   a: 7,
-  baz: function () {
+  baz() {
     return super.baz() * super.a;
   }
 }
