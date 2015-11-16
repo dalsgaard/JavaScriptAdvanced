@@ -34,6 +34,14 @@ req.open('GET', '/foo', false);
 req.open('GET', '/foo', true, 'bar', 'baz');
 ```
 
+### setRequestHeader()
+
+Sets the value of an HTTP request header. Must be called after _open_ but before _send_.
+
+```javascript
+req.setRequestHeader('Accept', 'application/json');
+```
+
 ### send()
 
 Sends the request. If an argument is given it is used at the body of the request. The argument must be of one of the following types:
@@ -46,14 +54,6 @@ Sends the request. If an argument is given it is used at the body of the request
 
 ```javascript
 req.send(blob);
-```
-
-### setRequestHeader()
-
-Sets the value of an HTTP request header. Must be called after _open_ but before _send_.
-
-```javascript
-req.setRequestHeader('Accept', 'application/json');
 ```
 
 ### abort()
