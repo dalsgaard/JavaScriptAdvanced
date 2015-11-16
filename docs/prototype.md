@@ -1,5 +1,7 @@
 # Prototype
 
+(Chrome)
+
 ### `create`
 
 ```js
