@@ -11,6 +11,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "traceur": "~0.0.92"
+    "traceur": "~0.0.92",
+    "traceur-runtime": "~0.0.92"
   }
 }
