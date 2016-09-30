@@ -154,7 +154,7 @@ function createPromise(d) {
       } else {
         resolve(ms);
       }
-    }, 1);
+    }, d);
   });
 }
 
@@ -175,6 +175,24 @@ let q = promise.then(
   }
 );
 ```
+
+### `all`
+
+```js
+const ps = [createPromise(12), createPromise(8), createPromise(10)];
+
+Promise.all(ps).then(
+  values => {
+    console.log(`Values ${values}`);
+  }
+).catch(
+  reason => {
+    console.log(`Reason ${reason}`);
+  }
+);
+```
+
+Non-promise values are *resolved* using `Promise.resolve`
 
 ## Links
 
