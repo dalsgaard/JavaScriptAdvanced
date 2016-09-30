@@ -53,7 +53,7 @@ let q = promise.then(
   },
   reason => {
     console.log(`Reason ${reason}`);
-    return value;
+    return reason;
   }
 );
 ```
